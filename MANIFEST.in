@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include anvil_theme *.css
+recursive-include anvil_theme *.csv
+recursive-include anvil_theme *.html
+recursive-include anvil_theme *.ico
+recursive-include anvil_theme *.js
+recursive-include anvil_theme *.json
+recursive-include anvil_theme *.md
+recursive-include anvil_theme *.png
+recursive-include anvil_theme *.py
+recursive-include anvil_theme *.svg
+recursive-include anvil_theme *.txt
+recursive-exclude anvil_theme *.pyc
